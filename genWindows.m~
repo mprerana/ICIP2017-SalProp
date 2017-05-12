@@ -1,0 +1,11 @@
+function windows = genWindows(salmap,params) %#ok<*INUSL>
+
+%% Extract paths to python interface
+salmapFile  = params.matpyfiles.salmapFile;
+windowsFile = params.matpyfiles.windowsFile;
+save(salmapFile,'salmap')
+
+[~,~] = system(['python ',params.python.genWindows]);
+
+windows = load(windowsFile);
+windows = windows.windows;
