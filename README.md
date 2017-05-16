@@ -22,6 +22,7 @@ To use this software, you need to have the following in the salprop-v1.0 directo
 2) Run the demo file
 
 ## Running the Demo file for any image
+salprop-v1.0 is the folder which will be downloaded from this github repository.
 1) Place the required image file in the "salprop-v1.0/Evaluation Tools" folder by the name "demoImg.jpg"
 
 2) Place a .mat file containing the ground truth object proposals for the image in the same folder by the name "ground_truth.mat"
@@ -32,6 +33,8 @@ To use this software, you need to have the following in the salprop-v1.0 directo
 3) Add the directory "salprop-v1.0" to path
 
 4) Run the demo file
+
+5) Also add the .mat file from [oef-master]/cache/forest/modelCvpr.mat in the folder salprop-v1.0/Model Files/
 
 ## Usage of Salprop
 1) Add the directory salprop-v1.0 to path
