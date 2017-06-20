@@ -4,7 +4,12 @@
 
 This repository contains the source code for the method described in
 
-<CITE PAPER>
+@article{mukherjee2017salprop,
+  title={SalProp: Salient object proposals via aggregated edge cues},
+  author={Mukherjee, Prerana and Lall, Brejesh and Tandon, Sarvaswa},
+  journal={arXiv preprint arXiv:1706.04472},
+  year={2017}
+}
 
 The system is implemented in MATLAB and Python.
 
